@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @ Anjali Maan
 - 👀 I’m interested in Font-end Developmnt / UI Designing
 - 🌱 I’m currently learning JavaScript and have knowledge of HTML, CSS, JavaScript, jQuery
-- 💞️ I’m looking to collaborate with other Desginers as well as looking forward to get new projects to enhance my desiging skills.
+- 💞️ I’m looking to collaborate with other Desginers as well as looking forward to learn new skills to enhance my desiging skills.
 - 📫 To connect, reach me at anjisingh318@gmail.com
 
 <!---
