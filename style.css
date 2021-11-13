@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(52 60 60);
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+/*Header */
+
+#home a, span{
+    color: white;
+    font-size: 14px;
+}
+
+/* Section */
+#Watch {
+    content: '';
+    display: -webkit-inline-box;
+    clear: both;
+}
+
+/* Section: left Side */
+.left-side {
+    width: 78%;
+    
+}
+#title {
+    color: white;
+}
+
+#title h1 {
+    cursor: pointer;
+}
+#title p {
+    font-size: 15px;
+    
+}
+
+.row {
+    margin: 0 0px;
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 4px 6px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-content {
+    background-color: black;
+    color: white;
+    margin-top: -18px;
+    padding: 11px 12px 13px 7px;
+    width: 100%;
+    min-height: 165px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    color: blue;
+}
+
+.card-content p {
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 49%;
+}
+
+
+.card-content a {
+    color: #f7f794;
+    font-size: 25px;
+    float: right;
+}
+
+/* Section: Right Side */
+.right-side {
+    width: 22%;
+    float: right;
+}
+
+img#space1 {
+    width: 92%;
+    float: right;
+}
+img#space2 {
+    width: 92%;
+    float: right;
+    margin-top: 10px;
+    height: 80%;
+}
+
+
+/* For Mobile */
+
+@media only screen and (max-width: 425px) and (min-width: 320px){
+
+    #Watch {
+        display: inline-block;
+    }
+    .left-side {
+        width: 100%;
+    }
+    #title p {
+        font-size: 13px;
+    }
+    .row {
+        display: contents;
+    }
+    .column {
+        width: 50%;
+    }
+    .card-content h3 {
+        font-size: 13px;
+    }
+    .card-content p {
+        font-size: 12px;
+    }
+    .card-content {
+        min-height: 192px;
+    }
+    .right-side {
+        width: 50%;
+    }
+}
+
+/* For Tablets */
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+    #title p {
+        font-size: 14px;
+    }
+    .card-content h3 {
+        font-size: 13px;
+    }
+    .card-content {
+        min-height: 181px;
+    }
+    img#space1{
+        width: 99%;
+    }
+    img#space2 {
+        width: 99%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+    .card-content {
+        min-height: 181px;
+    }
+}
